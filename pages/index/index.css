@@ -1,0 +1,88 @@
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 50rpx;
+	}
+
+/* friends-begin */
+.main{
+	/* padding: 0 10rpx; */
+	width: 100%;
+	padding-top: 92rpx;
+}
+.friends{
+	margin-top: 5rpx;
+	margin: 3rpx 10rpx;
+}
+.friend-list{ 
+	height: 100rpx;
+	border: 1rpx solid rgba(39,40,50,0.1);
+	width: 100%;
+	margin-top: 5rpx;
+	float: right;
+	/* &:active{
+		background-color: #007AFF;
+	} */
+}
+.friend-list-l{
+	position: relative;
+	margin-left: 5rpx;
+	float: left;
+} 
+.friend-list-l-img{
+	width: 96rpx;
+	height: 96rpx;
+	border-radius:24rpx;
+	/* display:inline-block; */
+	padding: 2rpx;
+}
+.tip{ 
+	position: absolute;
+	top:0;
+	left: 68rpx;
+	height: 36rpx;
+	line-height: 36rpx;
+	min-width: 36rpx;
+	color: #DD524D;
+	font-size: 12px;
+	background: rgba(255,93,91,1);
+	border-radius: 16rpx;
+	text-align: center;
+}
+
+.friend-list-r{ 
+	height: 100rpx;
+	padding-left: 16rpx;
+}
+.friend-list-r-top{
+	height: 50rpx;
+	width: 100%;
+	/* border: 1rpx solid rgba(39,40,50,0.1); */
+}
+.name{
+	line-height: 50rpx;
+	font-size: 18px;
+	float: left;
+	padding-left: 15rpx;
+}
+.time{
+	/* display: none; */
+	font-size: 12px;
+	line-height: 50rpx;
+	float: right;
+	padding-right: 15rpx;
+}
+.news{
+	font-size: 14px;
+	height: 50rpx;
+	line-height: 50rpx;
+	padding-left: 15rpx;
+	/* 内容省略号 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+/* friends-end */

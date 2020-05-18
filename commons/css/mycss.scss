@@ -1,0 +1,61 @@
+/* 头部公用样式top-bar-begin */
+.top-bar{
+	position: fixed;
+	z-index: 1001;
+	top:0;
+	width: 100%;
+	height: 88rpx;
+	background: rgba(255,255,255,0.96);
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+	/* display: inline-block; */
+	/* z-index: 2px; */
+}
+.top-bar-left{
+	float: left;
+    margin-left: 20rpx;
+}
+.top-bar-center{
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.top-bar-right{
+	float: right;
+	margin-right: 20rpx;
+}
+.search{
+	display: inline-block;
+	margin-right: 20rpx;
+}
+.add{
+	display: inline-block;
+}
+.text{
+	font-size: 18px;
+	color: rgba(51,51,51,1);
+	line-height: 88rpx;
+}
+.top-bar-left-img{
+	width: 88rpx;
+	height: 68rpx;
+	border-radius: 16rpx;
+	top:7px;
+}
+.top-bar-center-img{
+	width: 88rpx;
+	height:42rpx ;
+	padding-top: 21rpx;
+}
+.top-bar-right-img-left{
+	width: 52rpx;
+	height: 52rpx;
+	margin-top: 21rpx;
+}
+.top-bar-right-img-right{
+	width: 52rpx;
+	height: 52rpx;
+	margin-top: 18rpx;
+}
+/* 头部公用样式top-bar-end */

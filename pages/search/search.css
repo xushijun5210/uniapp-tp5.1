@@ -1,0 +1,23 @@
+.search-div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	box-sizing: border-box;
+	padding: 14rpx 118rpx 14rpx 32rpx;
+}
+.search-img{
+	position: absolute;
+	right: 130rpx;
+	top: 25rpx;
+	width: 40rpx;
+	height: 40rpx;
+	float: right;
+}
+.search{
+	padding: 0 60rpx 0 12rpx;
+	height: 60rpx;
+	background: rgba(243,244,246,1);
+	border-radius: 10rpx;
+}
