@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="top-bar">
-			<view class="top-bar-left" @tap="toregister">
+			<view class="top-bar-left" @tap="backOne">
 				<image src="../../static/img/fanhui.png" class="back-img" mode=""></image>
 			</view>
 		</view>
@@ -133,7 +133,7 @@
 				}
 			},
 			// 使用uni.navigateBack可以返回到原页面 （返回登录页面)
-			toregister:function(){
+			backOne:function(){
 				uni.navigateBack({
 					delta:1
 				});

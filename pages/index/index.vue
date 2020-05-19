@@ -8,10 +8,10 @@
 				<image class="top-bar-center-img" src="../../static/img/2256974_131330799000_2.jpg" mode=""></image>
 			</view>
 			<view class="top-bar-right">
-				<view class="search">
+				<view class="search" >
 					<image class="top-bar-right-img-left" src="../../static/img/search.png" mode=""></image>
 				</view>
-				<view class="add">
+				<view class="add" @tap="toSearch">
 					<image class="top-bar-right-img-right" src="../../static/img/03B58PIC7un_1024.png" mode=""></image>
 				</view>
 			</view>
@@ -87,7 +87,13 @@
 			},
 			changeTime:function(date){
 				return myfunction.dateTime(date);
-			}
+			},
+			//跳转到注册页面
+			toSearch:function(){
+				uni.navigateTo({
+				    url: '../search/search',
+				});
+			},
 
 		}
 	}

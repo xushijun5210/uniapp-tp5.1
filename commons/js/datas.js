@@ -4,6 +4,7 @@ export default{
 			{
 				id:1,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'dfds@qq.com',
 				tip:1,
 				name:'大海1',
 				time: new Date(),
@@ -12,6 +13,7 @@ export default{
 			{
 				id:2,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'227352@qq.com',
 				tip:233,
 				name:'大海2',
 				time: new Date(),
@@ -20,6 +22,7 @@ export default{
 			{
 				id:3,
 				imgurl:'03d3f3e4f8c6f9ea2a0c503346735882.jpg',
+				email:'227352564@163.com',
 				tip:43,
 				name:'大海3',
 				time: new Date(),
@@ -28,6 +31,7 @@ export default{
 			{
 				id:4,
 				imgurl:'93fcb23e46184c85ea3d6f079e924cad.jpg',
+				email:'2273525664@qq.com',
 				tip:4,
 				name:'大海4',
 				time: new Date(),
@@ -36,6 +40,7 @@ export default{
 			{
 				id:5,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:11,
 				name:'大海1',
 				time: new Date(),
@@ -44,6 +49,7 @@ export default{
 			{
 				id:6,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:0,
 				name:'大海2',
 				time: new Date(),
@@ -52,6 +58,7 @@ export default{
 			{
 				id:7,
 				imgurl:'03d3f3e4f8c6f9ea2a0c503346735882.jpg',
+				email:'2273525664@qq.com',
 				tip:3,
 				name:'大海3',
 				time: new Date(),
@@ -60,6 +67,7 @@ export default{
 			{
 				id:8,
 				imgurl:'93fcb23e46184c85ea3d6f079e924cad.jpg',
+				email:'2273525664@qq.com',
 				tip:42,
 				name:'大海4',
 				time: new Date(),
@@ -68,6 +76,7 @@ export default{
 			{
 				id:9,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:0,
 				name:'大海1',
 				time: new Date(),
@@ -76,6 +85,7 @@ export default{
 			{
 				id:10,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:20,
 				name:'大海2',
 				time: new Date(),
@@ -84,6 +94,7 @@ export default{
 			{
 				id:11,
 				imgurl:'03d3f3e4f8c6f9ea2a0c503346735882.jpg',
+				email:'2273525664@qq.com',
 				tip:33,
 				name:'大海3',
 				time: new Date(),
@@ -92,6 +103,7 @@ export default{
 			{
 				id:12,
 				imgurl:'93fcb23e46184c85ea3d6f079e924cad.jpg',
+				email:'2273525664@qq.com',
 				tip:12,
 				name:'大海4',
 				time: new Date(),
@@ -100,6 +112,7 @@ export default{
 			{
 				id:13,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:111,
 				name:'大海1',
 				time: new Date(),
@@ -108,6 +121,7 @@ export default{
 			{
 				id:14,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:222,
 				name:'大海2',
 				time: new Date(),
@@ -116,6 +130,7 @@ export default{
 			{
 				id:15,
 				imgurl:'03d3f3e4f8c6f9ea2a0c503346735882.jpg',
+				email:'2273525664@qq.com',
 				tip:13,
 				name:'大海3',
 				time: new Date(),
@@ -124,6 +139,7 @@ export default{
 			{
 				id:16,
 				imgurl:'93fcb23e46184c85ea3d6f079e924cad.jpg',
+				email:'2273525664@qq.com',
 				tip:0,
 				name:'大海4',
 				time: new Date(),
@@ -132,6 +148,7 @@ export default{
 			{
 				id:17,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:1,
 				name:'大海1',
 				time: new Date(),
@@ -140,6 +157,7 @@ export default{
 			{
 				id:18,
 				imgurl:'03B58PIC7un_1024.png',
+				email:'2273525664@qq.com',
 				tip:2,
 				name:'大海2',
 				time: new Date(),
@@ -148,6 +166,7 @@ export default{
 			{
 				id:19,
 				imgurl:'03d3f3e4f8c6f9ea2a0c503346735882.jpg',
+				email:'2273525664@qq.com',
 				tip:13,
 				name:'大海3',
 				time: new Date(),
@@ -156,6 +175,7 @@ export default{
 			{
 				id:24,
 				imgurl:'93fcb23e46184c85ea3d6f079e924cad.jpg',
+				email:'2273525664@qq.com',
 				tip:24,
 				name:'大海4',
 				time: new Date(),
@@ -163,5 +183,27 @@ export default{
 			}
 		];
 		return friendarr;
+	},
+	//好友关系  搜索用户和群
+	isFriend:function(){
+		let isfriend=[
+			{
+				userid:1,
+				friendid:2,
+			},
+			{
+				userid:1,
+				friendid:5,
+			},
+			{
+				userid:1,
+				friendid:6,
+			},
+			{
+				userid:1,
+				friendid:8,
+			},
+		];
+		return isfriend;
 	}
 }
