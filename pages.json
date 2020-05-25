@@ -25,6 +25,12 @@
 				"navigationStyle":"custom"//去除默认的头部
 			}
         }
+        ,{
+            "path" : "pages/userhome/userhome",
+            "style" : {
+				"navigationStyle":"custom"//去除默认的头部
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
